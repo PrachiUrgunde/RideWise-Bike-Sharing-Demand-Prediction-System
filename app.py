@@ -251,7 +251,7 @@ if st.session_state.page == 'welcome':
         # Transparent Containers at the far right
         st.markdown("""
             <div class="glass-card">
-                <p style="margin:0; font-size:12px; color:white;">📊 Predicted Demand</p>
+                <p style="margin:0; font-size:12px; color:grey;">📊 Predicted Demand</p>
                 <h1 style="margin:0; font-size:48px; color:white; text-align:left;">412</h1>
                 <p style="margin:0; color:#39FF14; font-size:12px;">📈 Weather Impact: +12%</p>
             </div>
