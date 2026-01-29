@@ -98,7 +98,7 @@ div[data-testid="stColumn"] > div:first-child {{
 }}
 
 h2, h4, h5, h6, label, p, span {{
-    color: rgba(100, 100, 100, 1) !important;;
+    color: white !important;;
 
 }}
 h1,h3,h2,h4{{
