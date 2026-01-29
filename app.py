@@ -103,7 +103,7 @@ h2, h4, h5, h6, label, p, span {{
 }}
 h1,h3,h2,h4{{
   text-align: center;
-  color: #EAEAEA !important; /* Adjusted to an even darker white */
+  color: #FFFFFF !important; /* Adjusted to an even darker white */
 }}
 
 
