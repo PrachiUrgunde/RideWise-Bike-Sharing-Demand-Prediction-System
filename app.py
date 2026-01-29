@@ -103,41 +103,41 @@ h2, h4, h5, h6, label, p, span {{
 }}
 h1,h3,h2,h4{{
   text-align: center;
-  color: rgba(100, 100, 100, 1) !important; /* Adjusted to an even darker white */
+  color: #EAEAEA !important; /* Adjusted to an even darker white */
 }}
 
 
 .stRadio label {{
-    color: rgba(255, 255, 255, 0.7) !important;
+    color: #EAEAEA !important;
 }}
 
 /* Custom styling for DataFrames */
 div[data-testid="stDataFrame"] {{
     background-color: rgba(55, 55, 69, 0.7) !important; /* Transparent DataFrames */
-    color: rgba(255, 255, 255, 0.7) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }}
 div[data-testid="stDataFrame"] * {{
-    color: rgba(255, 255, 255, 0.7) !important; /* Ensure all text inside DataFrame is white */
+    color: rgba(255, 255, 255, 1) !important; /* Ensure all text inside DataFrame is white */
 }}
 div[data-testid="stDataFrame"] thead th {{
     background-color: rgba(44, 44, 54, 0.7) !important; /* Slightly darker header */
-    color: rgba(255, 255, 255, 0.7) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }}
 div[data-testid="stDataFrame"] tbody tr:nth-child(even) {{
-    background-color: rgba(62, 62, 74, 0.7) !important; /* Alternate row color */
+    background-color: rgba(62, 62, 74, 1) !important; /* Alternate row color */
 }}
 div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {{
-    background-color: rgba(55, 55, 69, 0.7) !important; /* Match panel background */
+    background-color: rgba(55, 55, 69, 1) !important; /* Match panel background */
 }}
 
 /* Custom styling for transparent selectbox */
 div[data-testid="stSelectbox"] div[data-baseweb="select"] > div[role="button"] {{
     background-color: transparent !important;
-    color: rgba(255, 255, 255, 0.7) !important; /* Ensure text is white */
-    border-color: rgba(255, 255, 255, 0.3) !important; /* Subtle white border */
+    color: rgba(255, 255, 255, 1) !important; /* Ensure text is white */
+    border-color: rgba(255, 255, 255, 1) !important; /* Subtle white border */
 }}
 div[data-testid="stSelectbox"] div[data-baseweb="select"] > div[role="button"]:hover {{
-    background-color: rgba(255, 255, 255, 0.1) !important; /* Slight hover effect */
+    background-color: rgba(255, 255, 255, 1) !important; /* Slight hover effect */
 }}
 
 /* For the dropdown options themselves */
@@ -156,7 +156,7 @@ div[data-testid^="stButton"] > button {{
     border: 1px solid white !important; /* White border */
 }}
 div[data-testid^="stButton"] > button * {{
-    color: rgba(255, 255, 255, 0.7) !important; /* Ensure all text inside the button is white */
+    color: rgba(255, 255, 255, 1) !important; /* Ensure all text inside the button is white */
 }}
 div[data-testid^="stButton"] > button:hover {{
     background-color: #333333 !important; /* Slightly lighter black on hover */
@@ -176,7 +176,7 @@ div[data-testid^="stButton"] > button:active {{
     /* Global Header Color: Darker White */
     h1, h2, h3, h4 {{
         text-align: center;
-        color: rgba(100, 100, 100, 1) !important;
+        color: #EAEAEA !important;
     }}
 
     /* Hero Title: Kept Bright for readability */
@@ -191,7 +191,7 @@ div[data-testid^="stButton"] > button:active {{
 
     /* Right-aligned Glass Container */
     .glass-card {{
-        background: rgba(255, 255, 255, 0.1); /* Reverted to more transparent look */
+        background: rgba(255, 255, 255, 0.7); /* Reverted to more transparent look */
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border: 1px solid rgba(255, 255, 255, 0.1);
