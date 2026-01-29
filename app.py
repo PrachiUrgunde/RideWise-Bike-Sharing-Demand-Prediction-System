@@ -192,7 +192,7 @@ div[data-testid^="stButton"] > button:active {{
 
     /* Right-aligned Glass Container */
     .glass-card {{
-        background: rgba(255, 255, 255, 0.7); /* Reverted to more transparent look */
+        background: rgba(255, 255, 255, 0.5); /* Reverted to more transparent look */
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border: 1px solid rgba(255, 255, 255, 0.1);
