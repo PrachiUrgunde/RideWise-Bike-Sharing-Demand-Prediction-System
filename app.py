@@ -103,7 +103,8 @@ h2, h4, h5, h6, label, p, span {{
 }}
 h1,h3,h2,h4{{
   text-align: center;
-  color: #FFFFFF !important; /* Adjusted to an even darker white */
+  color: #F5F5F5 !important;
+ /* Adjusted to an even darker white */
 }}
 
 
@@ -191,7 +192,7 @@ div[data-testid^="stButton"] > button:active {{
 
     /* Right-aligned Glass Container */
     .glass-card {{
-        background: rgba(255, 255, 255, 0.7); /* Reverted to more transparent look */
+        background: rgba(255, 255, 255, 0.9); /* Reverted to more transparent look */
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -207,7 +208,8 @@ div[data-testid^="stButton"] > button:active {{
     /* Ensure h1 and h2 inside glass cards are white */
     .glass-card h1,
     .glass-card h2 {{
-        color: white !important;
+        color: #F5F5F5 !important;
+
     }}
 
     /* Neon Green Button */
